@@ -1,40 +1,64 @@
-# Modern-SQL-Data-Warehouse
+# Titanic-Survival-Prediction
 
-Welcome to the **Data Warehouse and Analytics Project** repo!
-Modern SQL-based Data Warehouse project demonstrating ETL workflows, data modeling, and analytics query design using SQL Server. Designed as a portfolio project highlights industry best practices in data engineering and analytics.
+Welcome to the **Titanic Survival Prediction Project** repo!  
+This project demonstrates a **complete end-to-end workflow** using Python, covering data exploration, preprocessing, feature engineering, model training, and evaluation.  
+Designed as a **portfolio project**, it highlights industry best practices in data science and applied machine learning.
 
 ---
+
 ## Project Requirements
 
-## Building the Data Warehouse (Data Engineering)
+## Building the Pipeline 
 
 ### Objectives
-Develop a modern warehouse using SQL Server to consolidate dales data, enabling analytical reporting and informed decision-making.
+Develop a robust machine learning solution to predict passenger survival on the Titanic dataset by leveraging historical passenger data and applying structured preprocessing and modeling techniques.
 
 ### Specifications
-- **Data Sources**: Import data from two source systems ( ERP & CRM) provided as CSV files
-- **Data Quality**: Cleanse and resolve data quality issues prior analysis.
-- **Integration**: Combine both sources into a single, user-friendly data designes for analytical queries.
-- **Scope**: Focus on the lates only; historization of dat is not required.
-- **Documntation**: Provide clear documentation of the data model to support both business stakeholders and analyticas temas.
+- **Data Source**: Titanic dataset  from Kaggle
+- **Data Quality**: Handle missing values, inconsistent categorical data, and feature imbalance
+- **Feature Engineering**: Encode categorical variables, scale numerical features, and drop non-informative columns
+- **Data Splitting**: Apply stratified sampling to preserve target and key feature distributions
+- **Pipeline Design**: Use scikit-learn Pipelines for clean, reusable, and leakage-free preprocessing
+- **Modeling**: Train and tune machine learning models using cross-validation
+- **Evaluation**: Assess model performance on unseen test data
 
 ---
 
-### BI: Analytics & Reporting ( Data Analytics)
+## Machine Learning: Modeling & Evaluation (Data Analytics)
 
 ### Objectives
-Deveop SQL_based analytics to deliver detailed insights into: 
--**Customer Behavior**
--**Product Performance**
--**Sales Trends**
+Develop ML-based analytics to uncover survival patterns and deliver predictive insights based on:
+- **Passenger Demographics**
+- **Socio-economic Class**
+- **Travel and Family Characteristics**
 
-These insights empower stakeholder with key business metrics, enabling startigic decision-making.
+These insights help explain survival trends and support data-driven conclusions.
 
 ---
-## License 
 
-this Project is licensed under the (MIT License). You are free to use, modify, and share this project with proper attribution.
+## Technologies Used
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-## About ME
+---
 
-Hi! I'm **Soniya Kumari B**. I Love working in the **Data** field and I'm on that path making sure I make it till the end, without giving up!!
+## Project Status
+✅ Completed  
+📌 Further enhancements such as advanced visualizations and model comparison can be added.
+
+---
+
+## License
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and share this project with proper attribution.
+
+---
+
+
+Hi! I'm **Soniya Kumari B** 👋  
+I love working in the **Data** field and I’m committed to continuously learning, building, and growing—making sure I reach my goals **without giving up**.
