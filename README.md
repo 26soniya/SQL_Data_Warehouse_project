@@ -58,7 +58,3 @@ This project is licensed under the **MIT License**.
 You are free to use, modify, and share this project with proper attribution.
 
 ---
-
-
-Hi! I'm **Soniya Kumari B** 👋  
-I love working in the **Data** field and I’m committed to continuously learning, building, and growing—making sure I reach my goals **without giving up**.
